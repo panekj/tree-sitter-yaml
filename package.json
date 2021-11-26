@@ -18,8 +18,7 @@
   "scripts": {
     "test": "yarn tree-sitter test",
     "prepack": "bash ./scripts/update-schema.sh && yarn tree-sitter generate",
-    "release": "standard-version --commit-all",
-    "tree-sitter": "./tree-sitter/target/release/tree-sitter"
+    "release": "standard-version --commit-all"
   },
   "standard-version": {
     "preset": "angular",
@@ -33,7 +32,8 @@
   "devDependencies": {
     "get-stdin": "^8.0.0",
     "natural-orderby": "2.0.3",
-    "standard-version": "7.0.0"
+    "standard-version": "7.0.0",
+    "tree-sitter-cli": "^0.20.1"
   },
   "files": [
     "/src/",
