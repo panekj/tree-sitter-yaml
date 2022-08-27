@@ -32,7 +32,7 @@
   "devDependencies": {
     "get-stdin": "^8.0.0",
     "natural-orderby": "2.0.3",
-    "standard-version": "7.0.0",
+    "standard-version": "9.5.0",
     "tree-sitter-cli": "^0.20.1"
   },
   "files": [
